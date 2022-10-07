@@ -12,7 +12,7 @@ function Navbar() {
       </div>
       <div className={navStyles.links}>
         <Link href='/'>Home</Link> 
-        <Link href='/products/products'>Products</Link>
+        <Link href='/products'>Products</Link>
         <Link href='/contact'>Contact</Link>
       </div>
       <div className={navStyles.links}>
