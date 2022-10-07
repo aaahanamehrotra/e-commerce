@@ -21,9 +21,15 @@
   transition-property: font-weight border-bottom;
   transition-duration: 500ms;
   transition-timing-function: ease-in;
+  cursor: pointer;
 }
 
 .links a:hover {
   font-weight: 600;
   border-bottom: 2px black solid;
+}
+
+.icon {
+  cursor: pointer;
+  margin-inline: 1em;
 }
