@@ -14,7 +14,6 @@ function ProductCard(props) {
             <div className={cardStyles.texts}>
               <div className={cardStyles.title}>{data.name}</div>
               <div className={cardStyles.other}>{data.description}</div>
-              <div className={cardStyles.other}>For: {data.gender}</div>
               <div className={cardStyles.other}>Price: {data.price}</div>
               <Link href={`/products/${data.id}`} className={cardStyles.link}>View</Link>
             </div>

@@ -1,8 +1,13 @@
 .intro {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-inline: 5%;
+}
+
+.text {
+  width: 50%;
 }
 
 .title {
@@ -15,7 +20,6 @@
   font-size: 25px;
   font-weight: 400;
   color: grey;
-  width: 85%;
   margin: 2.5% 0;
 }
 
@@ -66,6 +70,7 @@
 
 .aCards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
