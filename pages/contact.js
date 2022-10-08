@@ -1,4 +1,5 @@
 import contactStyles from '../styles/Contact.module.css'
+
 function contact() {
   return (
     <>
@@ -8,22 +9,20 @@ function contact() {
           <form>
             <div class={contactStyles.inputGroup}>
               <label for="name">Name</label>
-              <input type="text" name="name" id="name" placeholder="John Doe" />
+              <input type="text" name="name" id="name" placeholder="John Doe"/>
             </div>
             <div class={contactStyles.inputGroup}>
               <label for="email">Email</label>
               <input
                 type="email"
                 name="email"
-                id="email"
                 placeholder="johndoe@gmail.com"
               />
             </div>
             <div class={contactStyles.inputGroup}>
-              <label for="about">Yours Message</label>
+              <label for="textarea">Yours Message</label>
               <textarea
                 name="textarea"
-                id="about"
                 cols="30"
                 rows="10"
                 placeholder="Your message"
