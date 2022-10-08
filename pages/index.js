@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className={homeStyles.buttons}>
             <Link href='/login'>Sign Up</Link>
-            <Link href='/products/products'>Products</Link>
+            <Link href='/products/'>Products</Link>
           </div>
         </div>
         <Image className={homeStyles.img} alt='product images' src={`/${num(1,10)}.jpeg`} height='500' width='500' />
