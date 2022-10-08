@@ -9,13 +9,15 @@ function ProductCard(props) {
     <>
       {
         products.map((data) => (
-          <div key='1' className={cardStyles.card}>
-            <Image key='1' className={cardStyles.img} src={data.img} width='100' height='100' alt='product image'/>
-            <div key='2' className={cardStyles.title}>{data.name}</div>
-            <div key='3' className={cardStyles.gender}>{data.gender}</div>
-            <div key='4' className={cardStyles.description}>{data.description}</div>
-            <div key='5' className={cardStyles.price}>{data.price}</div>
-            <Link href={`/products/${data.id}`}>View</Link>
+          <div key='1'>
+            <Image className={cardStyles.img} src={data.img} width='250' height='200' alt='product image'/>
+            <div className={cardStyles.texts}>
+              <div className={cardStyles.title}>{data.name}</div>
+              <div className={cardStyles.other}>{data.description}</div>
+              <div className={cardStyles.other}>For: {data.gender}</div>
+              <div className={cardStyles.other}>Price: {data.price}</div>
+              <Link href={`/products/${data.id}`} className={cardStyles.link}>View</Link>
+            </div>
           </div>
         ))
       }

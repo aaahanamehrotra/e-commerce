@@ -3,7 +3,7 @@ const ProjectData = [
     id: 1,
     name: 'Nikee, shoes',
     gender: 'male',
-    img: '/img.jpeg',
+    img: '/2.jpeg',
     description: 'Lorem Ipsum Doler Mit',
     price: '$100'
   },
@@ -11,7 +11,7 @@ const ProjectData = [
     id: 2,
     name: 'Nikee, shoes',
     gender: 'female',
-    img: '/img.jpeg',
+    img: '/1.jpeg',
     description: 'Lorem Ipsum Doler Mit',
     price: '$100'
   },
@@ -19,7 +19,7 @@ const ProjectData = [
     id: 3,
     name: 'Nikee, shoes',
     gender: 'male',
-    img: '/img.jpeg',
+    img: '/4.jpeg',
     description: 'Lorem Ipsum Doler Mit',
     price: '$100'
   },
@@ -27,7 +27,7 @@ const ProjectData = [
     id: 4,
     name: 'Nikee, shoes',
     gender: 'female',
-    img: '/img.jpeg',
+    img: '/3.jpeg',
     description: 'Lorem Ipsum Doler Mit',
     price: '$100'
   }
