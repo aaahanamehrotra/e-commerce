@@ -5,6 +5,10 @@
   margin: 5% 0;
 }
 
+.img {
+  border-radius: 10px;
+}
+
 .info {
   width: 50%;
 }

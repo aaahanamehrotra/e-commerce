@@ -9,8 +9,8 @@ function ProductCard(props) {
     <>
       {
         products.map(data => (
-          <div key='1'>
-            <Image className={cardStyles.img} src={data.img} width='250' height='200' alt='product image'/>
+          <div key='1' className={cardStyles.card}>
+            <Image className={cardStyles.img} src={data.img} width='250' height='250' alt='product image'/>
             <div className={cardStyles.texts}>
               <div className={cardStyles.title}>{data.name}</div>
               <div className={cardStyles.other}>{data.description}</div>

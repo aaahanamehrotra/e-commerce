@@ -1,9 +1,11 @@
+.card {
+  background-color: #cecece;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
 
 .texts {
-  background-color: rgb(206, 206, 206);
   padding: 1em;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 .img {

@@ -33,7 +33,7 @@ export default function Home() {
             <Link href='/products/products'>Products</Link>
           </div>
         </div>
-        <Image className={homeStyles.img} alt='product images' src={`/${num(1,4)}.jpeg`} height='500' width='500' />
+        <Image className={homeStyles.img} alt='product images' src={`/${num(1,10)}.jpeg`} height='500' width='500' />
       </div>
       <div className={homeStyles.achievements}>
         <div className={homeStyles.aTitle}>

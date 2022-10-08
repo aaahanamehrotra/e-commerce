@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin-inline: 5%;
+  margin: 5%;
 }
 
 .text {
@@ -33,6 +33,10 @@
   border-radius: 10px;
   background: grey;
   color: white;
+}
+
+.img {
+  border-radius: 10px;
 }
 
 .products {
