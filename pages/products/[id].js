@@ -1,16 +1,10 @@
-import { useRouter } from "next/router"
 import Image from "next/image"
 
 import productStyles from '../../styles/Product.module.css'
 
 import ProductData from "../../data/ProductData"
 
-function Product() {
-  const router = useRouter()
-  const { id } = router.query
-
-  const data = ProductData[parseInt(id)]
-  
+function Product({ data }) {
   return (
     <>
       <div key='1' className={productStyles.product}>
@@ -27,6 +21,18 @@ function Product() {
       </div>
     </>
   )
+}
+
+export const getServerSideProps = (context) => {
+  const res = ProductData
+
+  const data = res[context.params.id]
+  
+  return {
+    props: {
+      data
+    }
+  }
 }
 
 export default Product
