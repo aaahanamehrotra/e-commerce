@@ -11,6 +11,7 @@ function Layout({ children }) {
     <>
       <Head>
         <title>E-commerce</title>
+        <meta name='keywords' content='E-commerce' />
       </Head>
       <Navbar />
       <main className={layoutStyles.container}>{children}</main>

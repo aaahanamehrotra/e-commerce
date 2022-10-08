@@ -1,0 +1,17 @@
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5% 0;
+}
+
+.info {
+  width: 50%;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 1em;
+  cursor: pointer;
+}
