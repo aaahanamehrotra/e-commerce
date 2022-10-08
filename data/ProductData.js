@@ -1,99 +1,90 @@
 const ProductData = [
   {
     id: 0,
-    name: 'Lorem Ipsum',
+    name: 'Shange Chi',
     img: '/1.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'Shange Chi legend of ten rings',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 1,
-    name: 'Lorem Ipsum',
+    name: 'Spider Man',
     img: '/2.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'Spider Man No Way Home',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 2,
-    name: 'Lorem Ipsum',
+    name: 'Thor',
     img: '/3.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'Thor love and thunder',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 3,
-    name: 'Lorem Ipsum',
+    name: 'Docter Strange',
     img: '/4.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'multiverse of madness',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 4,
-    name: 'Lorem Ipsum',
+    name: 'Captain America',
     img: '/5.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'Captain America action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 5,
-    name: 'Lorem Ipsum',
-    img: '/5.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    name: 'Spider Man',
+    img: '/6.jpeg',
+    description: 'Spider Man action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 6,
-    name: 'Lorem Ipsum',
-    img: '/6.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    name: 'Docter Strange',
+    img: '/7.jpeg',
+    description: 'Docter Strange action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 7,
-    name: 'Lorem Ipsum',
-    img: '/7.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    name: 'Iron Man',
+    img: '/8.jpeg',
+    description: 'Iron Man action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 8,
-    name: 'Lorem Ipsum',
-    img: '/8.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    name: 'Hawkeye',
+    img: '/9.jpeg',
+    description: 'Hawleye action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
   },
   {
     id: 9,
-    name: 'Lorem Ipsum',
-    img: '/9.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
-    largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
-    price: '$100',
-    stock: 10
-  },
-  {
-    id: 10,
-    name: 'Lorem Ipsum',
+    name: 'Falcon',
     img: '/10.jpeg',
-    description: 'Lorem Ipsum Doler Mit',
+    description: 'Falcon action figure',
     largeDescription: "Lorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler MitLorem Ipsum Doler Mit",
     price: '$100',
     stock: 10
