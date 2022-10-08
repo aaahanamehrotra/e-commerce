@@ -5,7 +5,7 @@ import searchStyles from '../styles/Search.module.css'
 import ProductData from '../data/ProductData'
 import ProductCard from '../components/Product/ProductCard'
 
-function search({ res }) {
+function Search({ res }) {
   const [ search, setSearch ] = useState('')
 
   let data = res.filter((products) => {
@@ -37,4 +37,4 @@ export const getServerSideProps = (context) => {
   }
 }
 
-export default search
+export default Search
