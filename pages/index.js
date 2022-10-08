@@ -22,23 +22,23 @@ export default function Home() {
     <>
       <div className={homeStyles.intro}>
         <div className={homeStyles.text}>
-          <div className={homeStyles.title}>
+          <h1 className={homeStyles.title}>
             Lorem Ipsum
-          </div>
-          <div className={homeStyles.about}>
+          </h1>
+          <h2 className={homeStyles.about}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu dui vivamus arcu felis bibendum ut tristique et egestas.
-          </div>
+          </h2>
           <div className={homeStyles.buttons}>
             <Link href='/login'>Sign Up</Link>
             <Link href='/products/'>Products</Link>
           </div>
         </div>
-        <Image className={homeStyles.img} alt='product images' src={`/${num(1,10)}.jpeg`} height='500' width='500' />
+        <Image className={homeStyles.img} alt='product images' src={`/${num(1,10)}.jpeg`} height='500' width='450' />
       </div>
       <div className={homeStyles.achievements}>
-        <div className={homeStyles.aTitle}>
+        <h1 className={homeStyles.aTitle}>
           Achievements
-        </div>
+        </h1>
         <div className={homeStyles.aCards}>
           {
             AchievementData.map(data => (
@@ -55,9 +55,9 @@ export default function Home() {
         </div>
       </div>
       <div className={homeStyles.products}>
-        <div className={homeStyles.pTitle}>
+        <h1 className={homeStyles.pTitle}>
           Popular Products
-        </div>
+        </h1>
         <div className={homeStyles.pCards}>
           <ProductCard data={data} />
         </div>

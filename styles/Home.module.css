@@ -29,10 +29,16 @@
 
 .buttons a {
   margin-inline: 1%;
-  padding: 1%;
+  padding: 1em;
   border-radius: 10px;
   background: grey;
   color: white;
+  transition: font-weight 500ms ease-in;
+}
+
+.buttons a:hover,
+.button a:focus {
+  font-weight: bold;
 }
 
 .img {
@@ -43,10 +49,6 @@
   margin: 5%;
 }
 
-.pTitle {
-  font-size: 35px;
-  font-weight: 500;
-}
 
 .pCards {
   display: flex;
@@ -68,7 +70,7 @@
 
 .aTitle {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: white;
 }
 

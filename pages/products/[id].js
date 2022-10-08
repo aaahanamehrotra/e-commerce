@@ -8,7 +8,7 @@ function Product({ data }) {
   return (
     <>
       <div key='1' className={productStyles.product}>
-        <Image src={data.img} width='300' height='300' alt='product image' className={productStyles.img}/>
+        <Image src={data.img} width='350' height='400' alt='product image' className={productStyles.img}/>
         <div className={productStyles.info}>
           <h1>{data.name}</h1>
           <h2>{data.description}</h2>

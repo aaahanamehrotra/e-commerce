@@ -33,4 +33,9 @@
 .icon {
   cursor: pointer;
   margin-inline: 1em;
+  transition: font-size 500ms ease-in;
+}
+
+.icon:hover {
+  font-size: 20px;
 }
