@@ -8,7 +8,7 @@ function ProductCard(props) {
   return (
     <>
       {
-        products.map((data) => (
+        products.map(data => (
           <div key='1'>
             <Image className={cardStyles.img} src={data.img} width='250' height='200' alt='product image'/>
             <div className={cardStyles.texts}>

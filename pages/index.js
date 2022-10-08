@@ -4,12 +4,14 @@ import Link from "next/link"
 import homeStyles from '../styles/Home.module.css'
 
 import ProductCard from "../components/Product/ProductCard"
-import ProjectData from "../data/ProjectData"
+import ProductData from "../data/ProductData"
+import AchievementData from '../data/AchievementsData'
 
 export default function Home() {
   const data = []
+
   for (let i = 0; i <= 3; i++) {
-    data.push(ProjectData[i])
+    data.push(ProductData[i])
   }
 
   const num = (min, max) => {
@@ -32,6 +34,25 @@ export default function Home() {
           </div>
         </div>
         <Image className={homeStyles.img} alt='product images' src={`/${num(1,4)}.jpeg`} height='1000' width='1000' />
+      </div>
+      <div className={homeStyles.achievements}>
+        <div className={homeStyles.aTitle}>
+          Achievements
+        </div>
+        <div className={homeStyles.aCards}>
+          {
+            AchievementData.map(data => (
+              <div key='1' className={homeStyles.aCard}>
+                <div className={homeStyles.aValue}>
+                  {data.value}
+                </div>
+                <div className={homeStyles.aName}>
+                  {data.name}
+                </div>
+              </div>
+            ))
+          }
+        </div>
       </div>
       <div className={homeStyles.products}>
         <div className={homeStyles.pTitle}>

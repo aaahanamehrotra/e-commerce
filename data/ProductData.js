@@ -1,4 +1,4 @@
-const ProjectData = [
+const ProductData = [
   {
     id: 1,
     name: 'Nikee, shoes',
@@ -33,4 +33,4 @@ const ProjectData = [
   }
 ]
 
-module.exports = ProjectData
+module.exports = ProductData

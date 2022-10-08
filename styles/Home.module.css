@@ -15,12 +15,12 @@
   font-size: 25px;
   font-weight: 400;
   color: grey;
-  width: 50%;
-  margin: 2.5%;
+  width: 85%;
+  margin: 2.5% 0;
 }
 
 .buttons {
-  margin: 1%;
+  margin-top: 5%;
 }
 
 .buttons a {
@@ -44,4 +44,50 @@
   display: flex;
   justify-content: space-evenly;
   margin: 2.5%;
+  flex-wrap: wrap;
+}
+
+.achievements {
+  background-color: grey;
+  box-shadow: 0 0 0 100vmax grey;
+  clip-path: inset(0 -100vmax);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.aTitle {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.aCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aCard {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  background-color: darkgrey;
+  width: 12em;
+  height: 10em;
+  border-radius: 10px;
+}
+
+.aValue {
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.aName {
+  font-size: 20px;
+  font-weight: 500;
 }
