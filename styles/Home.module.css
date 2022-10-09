@@ -11,29 +11,35 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 600;
   color: black;
+  margin: auto;
 }
 
 .about {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
-  color: grey;
-  margin: 2.5% 0;
+  color: #4e4e4e;
 }
 
 .buttons {
-  margin-top: 5%;
+  margin-top: 6%;
 }
 
 .buttons a {
   margin-inline: 1%;
-  padding: 1em;
+  padding: 1em 2em;
   border-radius: 10px;
-  background: grey;
+  background: #d41713;
   color: white;
   transition: font-weight 500ms ease-in;
+}
+
+.buttons a:last-child {
+  border: 2px #d41713 solid;
+  background-color: transparent;
+  color: #d41713;
 }
 
 .buttons a:hover,
@@ -47,19 +53,21 @@
 
 .products {
   margin: 5%;
+  background-color: #faf7f7;
+  padding: 2.5%;
+  border-radius: 10px;
 }
 
 
 .pCards {
   display: flex;
   justify-content: space-evenly;
-  margin: 2.5%;
   flex-wrap: wrap;
 }
 
 .achievements {
-  background-color: grey;
-  box-shadow: 0 0 0 100vmax grey;
+  background-color: #d41713;
+  box-shadow: 0 0 0 100vmax #d41713;
   clip-path: inset(0 -100vmax);
   display: flex;
   flex-direction: column;
@@ -83,15 +91,17 @@
 
 .aCard {
   display: flex;
+  flex-basis: 20em;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 1em;
-  background-color: darkgrey;
+  background-color: #d75350;
   width: 12em;
   height: 10em;
   border-radius: 10px;
+  color: white;
 }
 
 .aValue {

@@ -16,7 +16,7 @@ function Product({ data }) {
           <hr/>
           <h4>Price: {data.price}</h4>
           <h4>Stock: {data.stock}</h4>
-          <button className={productStyles.button}>Add to Cart</button>
+          <button className={productStyles.button}>Order Now</button>
         </div>
       </div>
     </>
